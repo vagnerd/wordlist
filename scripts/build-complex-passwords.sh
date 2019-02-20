@@ -10,6 +10,10 @@ LISTFILE=$1
 MATCHFILE=$2
 MATCHCHARS=(\# \. \_ \*)
 
+
+cat $LISTFILE
+cat $MATCHFILE
+
 while IFS= read -r keyname
 do
 
